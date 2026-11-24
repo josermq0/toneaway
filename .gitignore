@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build and test outputs
+dist/
+dist-core/
+coverage/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Vercel
+.vercel/
+
+# Logs and caches
+*.log
+.vite/
+.eslintcache
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
