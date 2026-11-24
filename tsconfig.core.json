@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "src",
+    "outDir": "dist-core",
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": false
+  },
+  "include": ["src/numerical/**/*.ts", "src/audio/fft.ts", "src/audio/spectrum.ts", "src/audio/wavEncoder.ts", "src/types/audio.ts"]
+}
